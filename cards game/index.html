@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Higher Card Wins</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Higher Card Wins</h1>
+    <p>Select Mode:</p>
+    <select id="mode">
+      <option value="random">Random Draw</option>
+    </select>
+
+    <div class="card-area">
+      <div>
+        <h2>You</h2>
+        <div class="card" id="player-card">🂠</div>
+      </div>
+      <div>
+        <h2>Computer</h2>
+        <div class="card" id="computer-card">🂠</div>
+      </div>
+    </div>
+
+    <button id="draw-button">Draw Card</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
